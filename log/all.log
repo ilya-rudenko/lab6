@@ -1,0 +1,315 @@
+2022-05-07 12:08:57.613 [main] INFO  stream.ServerStreamManager - Server Started: localhost/127.0.0.1:50001
+2022-05-07 12:09:01.534 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:09:01.552 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='--------------------------------------------
+id               :1
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :12
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+--------------------------------------------
+id               :2
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :21
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+'}
+2022-05-07 12:09:24.444 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='add', movie=Movie{id=null, name='1', coordinates=x: 1, y: 1, creationDate=2022-05-07T12:09:24.429, oscarsCount=1, goldenPalmCount=1, genre=null, mpaaRating=null, director=Person{name='1', height=1, eyeColor=RED, hairColor=RED, nationality=null, location=x: 1, y: 1.0, z: 1}}, number=null, string='null', type=MOVIE}
+2022-05-07 12:09:24.445 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=1, response='Element was successfully added'}
+2022-05-07 12:09:25.966 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:09:25.968 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='--------------------------------------------
+id               :4
+name             :1
+coordinates      :x: 1, y: 1
+creationDate     :2022-05-07
+oscarsCount      :1
+goldenPalmCount  :1
+genre            :null
+mpaaRating       :null
+director         :
+	name           :1
+	height         :1
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 1, y: 1.0, z: 1
+--------------------------------------------
+--------------------------------------------
+id               :1
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :12
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+--------------------------------------------
+id               :2
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :21
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+'}
+2022-05-07 12:09:41.895 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='add', movie=Movie{id=null, name='2', coordinates=x: 2, y: 2, creationDate=2022-05-07T12:09:41.892, oscarsCount=2, goldenPalmCount=2, genre=null, mpaaRating=null, director=Person{name='2', height=2, eyeColor=RED, hairColor=RED, nationality=null, location=x: 2, y: 2.0, z: 2}}, number=null, string='null', type=MOVIE}
+2022-05-07 12:09:41.895 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=1, response='Element was successfully added'}
+2022-05-07 12:09:43.258 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:09:43.260 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='--------------------------------------------
+id               :4
+name             :1
+coordinates      :x: 1, y: 1
+creationDate     :2022-05-07
+oscarsCount      :1
+goldenPalmCount  :1
+genre            :null
+mpaaRating       :null
+director         :
+	name           :1
+	height         :1
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 1, y: 1.0, z: 1
+--------------------------------------------
+--------------------------------------------
+id               :5
+name             :2
+coordinates      :x: 2, y: 2
+creationDate     :2022-05-07
+oscarsCount      :2
+goldenPalmCount  :2
+genre            :null
+mpaaRating       :null
+director         :
+	name           :2
+	height         :2
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 2, y: 2.0, z: 2
+--------------------------------------------
+--------------------------------------------
+id               :1
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :12
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+--------------------------------------------
+id               :2
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :21
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+'}
+2022-05-07 12:10:25.226 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:10:25.227 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='--------------------------------------------
+id               :4
+name             :1
+coordinates      :x: 1, y: 1
+creationDate     :2022-05-07
+oscarsCount      :1
+goldenPalmCount  :1
+genre            :null
+mpaaRating       :null
+director         :
+	name           :1
+	height         :1
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 1, y: 1.0, z: 1
+--------------------------------------------
+--------------------------------------------
+id               :5
+name             :2
+coordinates      :x: 2, y: 2
+creationDate     :2022-05-07
+oscarsCount      :2
+goldenPalmCount  :2
+genre            :null
+mpaaRating       :null
+director         :
+	name           :2
+	height         :2
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 2, y: 2.0, z: 2
+--------------------------------------------
+--------------------------------------------
+id               :1
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :12
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+--------------------------------------------
+id               :2
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :21
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+'}
+2022-05-07 12:10:33.403 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='exit', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:10:38.687 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:10:38.688 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='--------------------------------------------
+id               :4
+name             :1
+coordinates      :x: 1, y: 1
+creationDate     :2022-05-07
+oscarsCount      :1
+goldenPalmCount  :1
+genre            :null
+mpaaRating       :null
+director         :
+	name           :1
+	height         :1
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 1, y: 1.0, z: 1
+--------------------------------------------
+--------------------------------------------
+id               :5
+name             :2
+coordinates      :x: 2, y: 2
+creationDate     :2022-05-07
+oscarsCount      :2
+goldenPalmCount  :2
+genre            :null
+mpaaRating       :null
+director         :
+	name           :2
+	height         :2
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 2, y: 2.0, z: 2
+--------------------------------------------
+--------------------------------------------
+id               :1
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :12
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+--------------------------------------------
+id               :2
+name             :12
+coordinates      :x: 12, y: 12
+creationDate     :2022-05-07
+oscarsCount      :12
+goldenPalmCount  :21
+genre            :null
+mpaaRating       :null
+director         :
+	name           :12
+	height         :12
+	eyeColor       :RED
+	hairColor      :RED
+	nationality    :null
+	location       :x: 12, y: 12.0, z: 12
+--------------------------------------------
+'}
+2022-05-07 12:10:47.563 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='clear', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:10:47.564 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=1, response='Collection was cleared successfully'}
+2022-05-07 12:10:53.457 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:10:53.458 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='Collection is empty'}
+2022-05-07 12:10:53.458 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response=''}
+2022-05-07 12:11:01.445 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='show', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:11:01.446 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response='Collection is empty'}
+2022-05-07 12:11:01.446 [main] INFO  stream.ServerStreamManager - Response was sent: ServerResponse{type=2, response=''}
+2022-05-07 12:11:34.338 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='exit', movie=null, number=null, string='null', type=NULL}
+2022-05-07 12:11:37.339 [main] INFO  stream.ServerStreamManager - Got package: CommandPackage{command='exit', movie=null, number=null, string='null', type=NULL}
